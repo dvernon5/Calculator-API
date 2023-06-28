@@ -30,7 +30,7 @@ Example usage:
 
 ## Error Handling
 
-The calculator app handles division by zero errors. If the divisor (_value2_) is zero in the _/divide_ endpoint, a **DIVIDE BY 0 Error!** message will be thrown. 
+The calculator app handles division by zero errors. If the divisor (_value2_) is zero in the _/divide_ endpoint, a ** DIVIDE BY 0 Error! ** message will be thrown. 
 
 ## Dependencies  
 The calculator app relies on the following dependencies:  
