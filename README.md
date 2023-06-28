@@ -14,10 +14,10 @@ To use the calculator app, follow these steps:
 
 The calculator app exposes four API endpoints for different arithmetic operations:  
 
-* /add/<value1>/<value2>: Performs addition of _value1_ and _value2_.
-* /subtract/<value1>/<value2>: Performs subtractions _value2_ from _value1_
-* /multiply/<value1>/<value2>: Performs multiplication of _value1_ and _value2_
-* /divide/<value1>/<value2>: Performs division of _value1_ by _value2_
+* /add/value1/value2: Performs addition of _value1_ and _value2_.
+* /subtract/value1/value2: Performs subtractions _value2_ from _value1_
+* /multiply/value1/value2: Performs multiplication of _value1_ and _value2_
+* /divide/value1/value2: Performs division of _value1_ by _value2_
 
 Replace _value1_ and _value2_ in the URL path with the desired numeric values.  
 
