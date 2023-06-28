@@ -2,7 +2,7 @@
 
 This is a simple calculator application built using the Crow C++ microframework. It provides a web API for performing basic arithmetic operations such as addition, subtraction, multiplication, and division.  
 
-##Getting Started
+## Getting Started
 
 To use the calculator app, follow these steps:  
 
@@ -10,7 +10,7 @@ To use the calculator app, follow these steps:
 2. Build the application using a C++ compiler.
 3. Run the compiled executable to start the calculator server.
 
-##Usage  
+## Usage  
 
 The calculator app exposes four API endpoints for different arithmetic operations:  
 
@@ -28,11 +28,11 @@ Example usage:
 * To multiply two numbers, use the following URL: http://localhost:8080/multiply/2.5/4.2
 * To divide two numbers, use the following URL: http://localhost:8080/divide/10/2
 
-##Error Handling
+## Error Handling
 
 The calculator app handles division by zero errors. If the divisor (_value2_) is zero in the _/divide_ endpoint, a **DIVIDE BY 0 Error!** message will be thrown. 
 
-##Dependencies  
+## Dependencies  
 The calculator app relies on the following dependencies:  
 * Crow C++ microframework
 
